@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
   # Automatically on pushes to main 
-  # Hi
+  # Hi for pull request
   pull_request:
     branches:
       - main
