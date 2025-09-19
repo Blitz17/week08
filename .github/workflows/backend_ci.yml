@@ -8,8 +8,9 @@ on:
   # Manual trigger
   workflow_dispatch:
 
-  # Automatically on pushes to main branch
-  push:
+  # Automatically on pushes to main 
+  # Hi
+  pull_request:
     branches:
       - main
     paths: # Only trigger if changes are in backend directories
