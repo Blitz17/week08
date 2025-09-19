@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
   # Automatically on pushes to main branch
-  push:
+  pull_request:
     branches:
       - main
     paths: # Only trigger if changes are in the frontend directory
